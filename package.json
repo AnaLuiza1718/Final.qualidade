@@ -1,0 +1,27 @@
+{
+  "name": "final.qualidade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaLuiza1718/Final.qualidade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnaLuiza1718/Final.qualidade/issues"
+  },
+  "homepage": "https://github.com/AnaLuiza1718/Final.qualidade#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

@@ -8,5 +8,14 @@ function adicionarItem (item) {
 
 function removerItem (item) {
     let posicao = mochila.indexOf(item);
+    if (posicao !== -1) {
+        mochila.splice(posicao, 1);
+    }
     mochila.splice(posicao, 1);
 }
+
+module.exports = {
+    mochila, 
+    adicionarItem,
+    removerItem
+};

@@ -1,4 +1,4 @@
-// Ana Luiza
+// Ana Luiza de Oliveira Silva
 
 let mochila = [];
 
@@ -11,7 +11,6 @@ function removerItem (item) {
     if (posicao !== -1) {
         mochila.splice(posicao, 1);
     }
-    mochila.splice(posicao, 1);
 }
 
 module.exports = {
